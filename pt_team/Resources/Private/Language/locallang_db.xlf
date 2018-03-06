@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-02-20T19:15:56Z" product-name="pt_team">
+		<header/>
+		<body>
+			<trans-unit id="position">
+				<source>Position</source>
+			</trans-unit>
+			<trans-unit id="photo">
+				<source>Foto</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>Beschreibung</source>
+			</trans-unit>
+			<trans-unit id="email">
+				<source>E-Mail</source>
+			</trans-unit>
+			<trans-unit id="phone">
+				<source>Telefon</source>
+			</trans-unit>
+			<trans-unit id="title">
+				<source>Teammitglied</source>
+			</trans-unit>
+			<trans-unit id="header">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_pt_team_domain_model_feteam">
+				<source>Team</source>
+			</trans-unit>
+			<trans-unit id="tx_pt_team_domain_model_feteam.description">
+				<source>Eigenes Inhaltselement für Teammitglieder</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

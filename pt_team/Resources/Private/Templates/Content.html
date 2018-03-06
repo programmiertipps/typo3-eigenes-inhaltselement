@@ -1,0 +1,10 @@
+<div class="member">
+  <div class="photo">
+    <f:image src="{data.image}" alt="{data.header}" treatIdAsReference="1" />
+  </div>
+  <div class="name">{data.header}</div>
+  <div class="position">{data.subheader}</div>  
+  <div class="description"><f:format.html>{data.bodytext}</f:format.html></div>
+  <div class="email"><f:link.email email="{data.email}">E-Mail schreiben</f:link.email></div>
+  <div class="phone">{data.phone}</div>
+</div>
