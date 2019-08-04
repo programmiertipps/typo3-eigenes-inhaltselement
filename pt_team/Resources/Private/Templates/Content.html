@@ -1,6 +1,8 @@
 <div class="member">
   <div class="photo">
-    <f:image src="{data.image}" alt="{data.header}" treatIdAsReference="1" />
+    <f:for each="{images}" as="image">
+		<f:image src="{image.publicUrl}" alt="{data.header}" treatIdAsReference="1" />
+	</f:for>
   </div>
   <div class="name">{data.header}</div>
   <div class="position">{data.subheader}</div>  
